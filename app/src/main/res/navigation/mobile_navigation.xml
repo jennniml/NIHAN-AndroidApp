@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.nihanapp2.ui.home.HomeFragment"
+        android:label="NIHAN"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_nav_dementia"
+            app:destination="@id/nav_dementia" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_slideshow"
+            app:destination="@id/nav_dental" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_tools"
+            app:destination="@id/nav_homehealth" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_dementia"
+        android:name="com.example.nihanapp2.ui.dementia.DementiaFragment"
+        android:label="@string/menu_dementia"
+        tools:layout="@layout/fragment_dementia" >
+        <action
+            android:id="@+id/action_nav_dementia_to_dementiaPDFFragment"
+            app:destination="@id/dementiaPDFFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_dental"
+        android:name="com.example.nihanapp2.ui.dental.DentalFragment"
+        android:label="@string/menu_dental"
+        tools:layout="@layout/fragment_dental" >
+        <action
+            android:id="@+id/action_nav_dental_to_dentureFragment"
+            app:destination="@id/dentureCareFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_homehealth"
+        android:name="com.example.nihanapp2.ui.homehealth.HomeHealthFragment"
+        android:label="@string/menu_homehealth"
+        tools:layout="@layout/fragment_homehealth" >
+        <action
+            android:id="@+id/action_nav_homehealth_to_nutritionFragment"
+            app:destination="@id/nutritionFragment" />
+        <action
+            android:id="@+id/action_nav_homehealth_to_exerciseFragment"
+            app:destination="@id/exerciseFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.example.nihanapp2.ui.about.AboutFragment"
+        android:label="@string/menu_about"
+        tools:layout="@layout/fragment_about" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.nihanapp2.ui.send.SendFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/fragment_send" />
+    <fragment
+        android:id="@+id/dentureCareFragment"
+        android:name="com.example.nihanapp2.ui.dental.DentureCareFragment"
+        android:label="Denture Care"
+        tools:layout="@layout/fragment_denture_care" />
+    <fragment
+        android:id="@+id/dementiaPDFFragment"
+        android:name="com.example.nihanapp2.ui.dementia.DementiaPDFFragment"
+        android:label="Dementia Journey"
+        tools:layout="@layout/dementia_pdf_fragment" />
+    <fragment
+        android:id="@+id/nutritionFragment"
+        android:name="com.example.nihanapp2.ui.homehealth.NutritionFragment"
+        android:label="@string/homehealth_nutrition"
+        tools:layout="@layout/nutrition_fragment" />
+    <fragment
+        android:id="@+id/exerciseFragment"
+        android:name="com.example.nihanapp2.ui.homehealth.ExerciseFragment"
+        android:label="@string/homehealth_exercise"
+        tools:layout="@layout/exercise_fragment" />
+</navigation>

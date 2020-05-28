@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/icon_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_dementia"
+            android:icon="@drawable/icons8_brain"
+            android:title="@string/menu_dementia" />
+        <item
+            android:id="@+id/nav_dental"
+            android:icon="@drawable/icon_tooth"
+            android:title="@string/menu_dental" />
+        <item
+            android:id="@+id/nav_homehealth"
+            android:icon="@drawable/icons8_health"
+            android:title="@string/menu_homehealth" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/icon_about"
+                android:title="@string/menu_about" />
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/icon_settings"
+                android:title="@string/menu_settings" />
+        </menu>
+    </item>
+
+
+</menu>

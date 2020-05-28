@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">NIHANapp2</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_dementia">Dementia</string>
+    <string name="menu_dental">Dental</string>
+    <string name="menu_homehealth">Home Health</string>
+    <string name="menu_about">About Us</string>
+    <string name="menu_settings">Settings</string>
+
+    <string name="dementia_pdf">Navigating the Dementia Journey</string>
+    <string name="dental_denture">Denture Care</string>
+
+    <string name="dementia_text1">
+        \"Navigating the Dementia Journey\" is a Portable Document Format (PDF) \n \n
+        Instructions on how to use: \n
+        <li>Swipe left or right to flip through the pages of the PDF</li> \n
+        <li>Use two fingers and spread them apart to make text bigger</li> \n
+        <li>Use two fingers to pinch the screen to make text smaller</li> \n
+        <li>Use the scroll handler tab on the bottom to quickly scroll through pages</li>
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment...</string>
+
+
+    <!--    Denture Care Page    -->
+    <string name="denturecare_title">Denture Care</string>
+    <string name="denturecare_by">By: Georgia Dounis, DDS, MS, FICD</string>
+    <string name="denturecare_step1">
+        Brush your dentures every day using a soft bristle denture brush to remove food and plaque. Do the same to your tongue and gums.
+    </string>
+    <string name="denturecare_step2">
+        Handle your dentures with care. They are very delicate and can break if you drop it. Hold them with a soft towel when handling over water.
+    </string>
+    <string name="denturecare_step3">
+        Be careful when eating hot or hard food and sharp edge bones. They may damage your dentures.
+    </string>
+    <string name="denturecare_step4">
+        When not wearing your dentures, soak them in water or dental solution recommended by your dentist. Dentures will lose their shape if they dry out. NEVER PLACE THEM IN HOT WATER.
+    </string>
+    <string name="denturecare_step5">
+        Avoid cleaning your dentures with household cleaners that are abrasive.
+    </string>
+    <string name="denturecare_step6">
+        Remove your dentures before you go to bed. This allows gum tissues to rest and promote oral health.
+    </string>
+    <string name="denturecare_step7">
+        Avoid making minor adjustments to your denture. Always see your dentist if your denture breaks, crack, chip, and if one or more teeth become loose.
+    </string>
+
+
+    <!--    About Page    -->
+    <string name="about_description">
+        The Nevada Interprofessional Healthy Aging Network (NIHAN) develops interprofessional education training programs to enhance an integrated
+        geriatrics healthcare workforce including primary healthcare professionals, students, faculty, training physicians, older adults, and their
+        caregivers. The NIHAN’s training programs educate the workforce to apply the evidence-based 4Ms framework (Medication, Mentation, Mobility,
+        What Matters) to daily practice as a set, to improve health outcomes of older adults and to promote Age-Friendly Health Systems and
+        Dementia-Friendly Communities in the southern Nevada.
+    </string>
+    <string name="about_visit">For more information, visit <a href="https://www.nihan.care/" title="nihan">nihan.care</a></string>
+
+    <!--    Attributions    -->
+    <string name="about_attributions">Attributions</string>
+    <string-array name="nav_icons">
+        <item>
+            Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
+            from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+        </item>
+        <item>
+            <a href="https://icons8.com/icons/set/head-with-brain" target="_blank">Head With Brain icon</a>
+            icon by <a href="https://icons8.com" target="_blank">Icons8</a>
+        </item>
+        <item>
+            Icons made by <a href="https://www.flaticon.com/authors/smalllikeart" title="smalllikeart">smalllikeart</a>
+            from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+        </item>
+        <item>
+            <a href="https://icons8.com/icons/set/healthy-eating" target="_blank">Healthy Eating icon</a>
+            icon by <a href="https://icons8.com" target="_blank">Icons8</a>
+        </item>
+        <item>
+            Icons made by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a>
+            from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+        </item>
+        <item>
+            Icons made by <a href="https://www.flaticon.com/authors/pixel-buddha" title="Pixel Buddha">Pixel Buddha</a>
+            from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+        </item>
+
+    </string-array>
+
+
+    <!--    Home Health Page    -->
+    <string name="homehealth_nutrition">Nutrition</string>
+    <string name="homehealth_exercise">Exercise</string>
+
+</resources>
